@@ -5,7 +5,7 @@ const Product = [
         SubCategory : [
             {
                 id : 1,
-                SubCategory : 'MobilePhone',
+                SubCategoryOfCategory : 'MobilePhone',
                 Products : [
                     {
                         id: 1,
@@ -14,7 +14,13 @@ const Product = [
                         pPrice: '100 INR'
                     },
                     {
-                        id: 2,
+                        id: 1,
+                        pName: 'Samsung M53',
+                        pImage: 'https://images.unsplash.com/photo-1601784551446-20c9e07cdbdb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=367&q=80',
+                        pPrice: '100 INR'
+                    },
+                    {
+                        id: 1,
                         pName: 'Xiaomi Redmi Note 9 Pro',
                         pImage: 'https://images.unsplash.com/photo-1601784551446-20c9e07cdbdb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=367&q=80',
                         pPrice: '100 INR'
@@ -23,7 +29,7 @@ const Product = [
             },
             {
                 id : 2,
-                SubCategory : 'TV',
+                SubCategoryOfCategory : 'TV',
                 Products : [
                     {
                         id: 1,
@@ -41,7 +47,7 @@ const Product = [
         SubCategory : [
             {
                 id : 1,
-                SubCategory : 'CodingBook',
+                SubCategoryOfCategory : 'CodingBook',
                 Products : [
                     {
                         id: 1,
@@ -59,7 +65,7 @@ const Product = [
             },
             {
                 id : 2,
-                SubCategory : 'TextBook',
+                SubCategoryOfCategory : 'TextBook',
                 Products : [
                     {
                         id: 1,

@@ -1,6 +1,6 @@
 function SubCategory(prop) {
     return(
-        <div className="SubCatText"><div className="SubCatTextFinal">{prop.SubCategory}</div></div>
+        <div className=""><div className="">{prop.SubCategory}</div></div>
     )  
 }
 export default SubCategory;

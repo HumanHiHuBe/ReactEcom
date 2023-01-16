@@ -17,14 +17,14 @@ function IndividualProduct(props) {
     const iAlt = ""+props.pName+"'s Image";
 
     return(
-        <div className="IndividualProduct">
-            <div className="ProImg"><img src={imgurl} alt={iAlt}  /></div>
-            <div className="NameDiv">{props.pName}</div>
-            <div className="PriceDiv">{props.pPrice}</div>
-            <div className="BtnDiv">
-                <button className="btn" onClick={f2}>-</button>
-                <div className="InpDiv"><input type="text" name="" id="" value={ProductCounter} /></div>
-                <button className="btn" onClick={f1}>+</button>
+        <div className="">
+            <div className=""><img src={imgurl} alt={iAlt}  /></div>
+            <div className="">{props.pName}</div>
+            <div className="">{props.pPrice}</div>
+            <div className="">
+                <button className="" onClick={f2}>-</button>
+                <div className=""><input type="text" name="" id="" value={ProductCounter} /></div>
+                <button className="" onClick={f1}>+</button>
             </div>
             
         </div>

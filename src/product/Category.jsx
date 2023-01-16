@@ -1,6 +1,6 @@
 function Category(prop) {
     return(
-        <div className="CatText">{prop.Category}</div>
+        <div className="">{prop.Category}</div>
     ) 
 }
 export default Category;
