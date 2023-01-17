@@ -22,9 +22,9 @@ function IndividualProduct(props) {
             <div className="">{props.pName}</div>
             <div className="">{props.pPrice}</div>
             <div className="">
-                <button className="" onClick={f2}>-</button>
-                <div className=""><input type="text" name="" id="" value={ProductCounter} /></div>
-                <button className="" onClick={f1}>+</button>
+                <button className="" onClick={f2}>Add To Cart</button>
+                {/* <div className=""><input type="text" name="" id="" value={ProductCounter} /></div>
+                <button className="" onClick={f1}>+</button> */}
             </div>
             
         </div>

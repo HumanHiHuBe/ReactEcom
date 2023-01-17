@@ -75,7 +75,11 @@ function SingleAllRender() {
 export {SingleAllRender};
 
 function f4(event) {
-    document.getElementsByClassName('category')[0].style.display = 'none';
+    const temp = document.getElementsByClassName('category')
+    for (let i=0;i<temp.length;i++){
+        temp[i].style.display = 'none';
+    }
+
     document.getElementsByClassName(event.target.value)[0].style.display = '';
 
 }
