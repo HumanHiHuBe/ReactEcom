@@ -1,6 +1,6 @@
 function Category(prop) {
     return(
-        <div className="">{prop.Category}</div>
+        prop.Category
     ) 
 }
 export default Category;

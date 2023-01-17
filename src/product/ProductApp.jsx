@@ -56,9 +56,10 @@ function SingleAllCreator(inp) {
             SubCategory.map(SubCategoryCreator)
         )
     }
+
     
     return(
-        <div>
+        <div className={'category ' + inp.Category} style={{display: "none"}}>
             <CategoryRender />
             <SubCategoryRender />
         </div>
@@ -72,6 +73,30 @@ function SingleAllRender() {
     )
 }
 export {SingleAllRender};
+
+function f4(event) {
+    document.getElementsByClassName('category')[0].style.display = 'none';
+    document.getElementsByClassName(event.target.value)[0].style.display = '';
+
+}
+
+function CategoryCreator(inp){
+    return(
+        <button onClick={f4} value={inp.Category}>
+            <Category
+                key = {inp.id}
+                Category = {inp.Category}
+            /> 
+        </button>
+    )   
+}
+function CategoryRender() {
+    return(  
+        Product.map(CategoryCreator)
+    )
+}
+
+export {CategoryRender};
 
 
 
